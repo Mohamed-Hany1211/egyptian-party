@@ -1,0 +1,285 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* -------------------------------------------------------------- */
+/* home section */
+
+.home {
+    background-image: url(../imgs/group-people-dancing-disco.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* background-attachment: fixed; */
+}
+
+.home h1 {
+    font-size: 3.75rem;
+    font-weight: 500;
+    color: white;
+}
+
+.first-p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+}
+
+.links a {
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.links a:hover {
+    color: RGBA(214, 46, 51, 0.4);
+}
+
+.links {
+    width: 15.625rem;
+    background-color: RGB(17, 17, 17);
+    left: -15.625rem;
+}
+
+.marginTop {
+    margin-top: 2.8125rem;
+}
+
+.extraMarginTop {
+    margin-top: 5rem;
+}
+
+
+.left-menu {
+    height: 100vh;
+    z-index: 99999999;
+    /* left: -15.625rem; */
+}
+
+
+.button {
+    height: auto;
+    margin-left: .625rem;
+    margin-top: 6.875rem;
+    left: 0px;
+    /* left: 250px;
+    top: 420px; */
+}
+
+.links li {
+    font-size: 1.5625rem;
+    font-weight: 400;
+}
+
+
+.fa-bars {
+    font-size: 1.875rem;
+    font-weight: 400;
+    color: white;
+}
+
+.open {
+    margin-left: .625rem;
+    font-size: 1.875rem;
+    font-weight: 400;
+    color: white;
+}
+
+.open-span {
+    cursor: pointer;
+    height: 30px;
+}
+
+.fa-xmark {
+    font-size: 1.5625rem;
+    color: white;
+    top: 40px;
+    right: 40px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.fa-xmark:hover {
+    color: RGBA(214, 46, 51, 0.4);
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* singers section */
+
+.sing {
+    margin: 6.25rem 0rem;
+}
+
+.singers {
+    width: 50%;
+    margin: auto;
+    background-color: #a11f67;
+}
+
+
+.singers h3 {
+    background-color: #79155B;
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 500;
+    padding: .625rem 0rem;
+    cursor: pointer;
+}
+
+
+/* --------------------------------------------------------------------------------- */
+
+/* counter section */
+
+.counter {
+    background-image: url(../imgs/people-nightclub.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    margin-bottom: 3.75rem;
+}
+
+.layer {
+    background-color: rgba(121, 21, 91, 0.4);
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}
+
+.layer div {
+    height: 9.375rem;
+    width: 15.625rem;
+    background-color: transparent;
+    border: .0625rem white solid;
+    margin-right: 1.25rem;
+}
+
+/* --------------------------------------------------------------------------------- */
+/* join us section */
+.contact-info {
+    width: 90%;
+    margin-left: 2.1875rem;
+}
+
+.contact-info h3 {
+    margin-left: 1.25rem;
+    font-size: 1.125rem;
+    font-weight: 900;
+}
+
+.contact-info p {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    color: RGB(119, 119, 119);
+}
+
+.joinUs h2 {
+    margin-left: 3.75rem;
+    font-size: 2.1875rem;
+    font-weight: 700;
+}
+
+.container>p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: RGB(119, 119, 119);
+}
+
+.email {
+    color: RGB(214, 46, 51);
+}
+
+.icons span {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid gray;
+    color: RGB(119, 119, 119);
+    ;
+}
+
+.icons {
+    margin-top: 90px;
+}
+
+.margin-left {
+    margin-left: .9375rem;
+}
+
+.extra-margin {
+    margin-left: 1.5625rem;
+}
+
+.icons span:hover {
+    background-color: RGB(214, 46, 51);
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+
+.icon-span {
+    margin-right: 1.25rem;
+}
+
+.form input {
+    padding: 6.5px;
+    margin-bottom: 1.25rem;
+}
+
+.form textarea {
+    padding: 6.5px;
+    margin-bottom: 1.25rem;
+}
+
+.form {
+    width: 90%;
+    margin-right: 2.1875rem;
+}
+
+.btn {
+    width: 9.375rem;
+    height: 3.125rem;
+    border-radius: 0;
+    background-color: RGB(214, 46, 51);
+    border: 0;
+}
+
+.btn:hover {
+    width: 9.375rem;
+    height: 3.125rem;
+    border-radius: 0;
+    background-color: RGB(214, 46, 51);
+    border: 0;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.joinUs {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.word-num {
+    color: RGB(214, 46, 51);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+.rest-p {
+    color: black;
+}
