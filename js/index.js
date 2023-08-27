@@ -6,16 +6,28 @@ $(document).ready(function () {
     $('.singer4').slideUp();
     $('.s1').click(function () {
         $('.singer1').slideToggle();
+        $('.singer2').slideUp();
+        $('.singer3').slideUp();
+        $('.singer4').slideUp();
     })
 
     $('.s2').click(function () {
         $('.singer2').slideToggle();
+        $('.singer1').slideUp();
+        $('.singer3').slideUp();
+        $('.singer4').slideUp();
     })
     $('.s3').click(function () {
         $('.singer3').slideToggle();
+        $('.singer1').slideUp();
+        $('.singer2').slideUp();
+        $('.singer4').slideUp();
     })
     $('.s4').click(function () {
         $('.singer4').slideToggle();
+        $('.singer1').slideUp();
+        $('.singer2').slideUp();
+        $('.singer3').slideUp();
     })
 
 
